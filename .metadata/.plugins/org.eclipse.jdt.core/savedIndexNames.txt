@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+/Users/nonnie/Documents/Programming/workspace/Quadratic_Formula/.metadata/.plugins/org.eclipse.jdt.core
+474354146.index
