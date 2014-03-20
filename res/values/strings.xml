@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quadratic_Formula</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="enter_a">Enter Coefficient of x^2</string>
+    <string name="enter_b">Enter Coefficient of x</string>
+    <string name="enter_c">Enter constant</string>
+    <string name="calculate">Calculate</string>
+    <string name="title_activity_calculate">CalculateActivity</string>
+
+    <string-array name="greetings">
+        <item>hello</item>
+        <item>hola</item>
+        <item>ciao</item>
+    </string-array>
+
+    <string name="solution1">X1=</string>
+    <string name="solution2">x2=</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+</resources>

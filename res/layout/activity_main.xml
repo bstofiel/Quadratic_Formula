@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/editText_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/solution1"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
+        android:nextFocusForward="@+id/editText_B"
+        android:imeOptions="actionNext" />
+    
+    <EditText
+        android:id="@+id/editText_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_A"
+        android:layout_below="@+id/textView3"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
+        android:nextFocusForward="@+id/editText_C"
+        android:imeOptions="actionNext" />
+    
+    <EditText
+        android:id="@+id/editText_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_B"
+        android:layout_below="@+id/textView4"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" 
+        android:nextFocusForward="@+id/editText_A"  />
+
+    <TextView
+        android:id="@+id/solution1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/enter_a"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/solution1"
+        android:layout_below="@+id/editText_A"
+        android:text="@string/enter_b"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/editText_B"
+        android:text="@string/enter_c"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/calcBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_C"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/calculate" />
+
+</RelativeLayout>
